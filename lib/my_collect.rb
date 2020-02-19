@@ -7,5 +7,3 @@ def give_first_name(array)
   end
   full_names
 end
-
-
