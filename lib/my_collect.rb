@@ -8,6 +8,9 @@ def give_first_name(array)
   full_names
 end
 
-give_first_name(["Elijah Wines", "Taylor O'Neal", "Carly Dixey", "Aaron Dixey", "Madeline Wines", "Charlotte Dixey"]) do |name|
+array = ["Elijah Wines", "Taylor O'Neal", "Madeline Wines", "Charlotte Dixey"]
+give_first_name(array) do |name|
   name.split(" ").first
 end
+
+  
